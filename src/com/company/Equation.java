@@ -2,7 +2,7 @@ package com.company;
 import java.util.Stack;
 
 public class Equation {
-    private final String OPERATORS = "+-*/";
+    private final String OPERATORS = "+-*/=";
 
     public boolean validateBrackets(String equation) {
         Stack<Character> stack = new Stack<>();
